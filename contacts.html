@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gergana Nikolova</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Gergana Nikolova</h1>
+                <p class="tagline">Professional Sommelier</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contacts.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contacts-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p class="section-intro">Have questions or ready to book a service? Contact Gergana today</p>
+
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="consultation">Wine Consultation (€30/hour)</option>
+                                <option value="tasting">Wine Tasting Notes (€40)</option>
+                                <option value="custom">Custom Package</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="info-block">
+                        <h4>📧 Email</h4>
+                        <p><a href="mailto:gergana.nikolova@wine.com">gergana.nikolova@wine.com</a></p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>📱 Phone</h4>
+                        <p><a href="tel:+359888123456">+359 (888) 123-456</a></p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>📍 Location</h4>
+                        <p>Sofia, Bulgaria</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>⏰ Availability</h4>
+                        <p>Monday - Friday: 10:00 AM - 7:00 PM<br>
+                        Saturday: 11:00 AM - 5:00 PM<br>
+                        Sunday: Closed</p>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Connect with Me</h4>
+                        <a href="#" class="social-icon">Facebook</a>
+                        <a href="#" class="social-icon">Instagram</a>
+                        <a href="#" class="social-icon">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="booking-info">
+                <h3>Booking Information</h3>
+                <p><strong>Consultation Hours:</strong> 1-hour sessions available by appointment</p>
+                <p><strong>Location:</strong> Meetings can be arranged at your preferred location or through video consultation</p>
+                <p><strong>Cancellation Policy:</strong> 24 hours notice required for cancellations</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Gergana Nikolova - Professional Sommelier. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
