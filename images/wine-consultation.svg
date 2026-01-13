@@ -1,0 +1,69 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wineBottleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0d2608;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f4e4c1"/>
+  
+  <!-- Wine Bottle 1 -->
+  <g transform="translate(60, 80)">
+    <!-- Bottle body -->
+    <path d="M 15 30 L 10 80 Q 10 95 20 105 L 40 105 Q 50 95 50 80 L 45 30 Q 45 20 35 20 L 25 20 Q 15 20 15 30" fill="url(#wineBottleGrad)" stroke="#0a1f04" stroke-width="1"/>
+    
+    <!-- Bottle neck -->
+    <rect x="28" y="10" width="14" height="12" fill="url(#wineBottleGrad)" stroke="#0a1f04" stroke-width="1"/>
+    
+    <!-- Cork -->
+    <rect x="26" y="4" width="18" height="8" fill="#d4af37" stroke="#a0860a" stroke-width="1" rx="1"/>
+    
+    <!-- Wine inside -->
+    <path d="M 18 70 L 20 90 Q 20 98 28 103 L 32 103 Q 40 98 42 90 L 44 70" fill="#722f37" opacity="0.8"/>
+    
+    <!-- Glass shine -->
+    <ellipse cx="22" cy="50" rx="4" ry="15" fill="white" opacity="0.15"/>
+  </g>
+  
+  <!-- Wine Glass -->
+  <g transform="translate(190, 80)">
+    <!-- Stem -->
+    <rect x="14" y="50" width="6" height="40" fill="#d4d4d4" opacity="0.5"/>
+    
+    <!-- Base -->
+    <ellipse cx="17" cy="95" rx="12" ry="5" fill="#d4d4d4" opacity="0.6"/>
+    
+    <!-- Wine in glass -->
+    <path d="M 6 50 L 10 70 L 24 70 L 28 50" fill="#722f37" opacity="0.7"/>
+    
+    <!-- Glass -->
+    <path d="M 6 50 L 10 70 L 24 70 L 28 50" fill="none" stroke="#a0a0a0" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Highlight -->
+    <path d="M 8 55 L 12 68" stroke="#ffffff" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Wine Bottle 2 -->
+  <g transform="translate(280, 80)">
+    <!-- Bottle body -->
+    <path d="M 15 30 L 10 80 Q 10 95 20 105 L 40 105 Q 50 95 50 80 L 45 30 Q 45 20 35 20 L 25 20 Q 15 20 15 30" fill="url(#wineBottleGrad)" stroke="#0a1f04" stroke-width="1"/>
+    
+    <!-- Bottle neck -->
+    <rect x="28" y="10" width="14" height="12" fill="url(#wineBottleGrad)" stroke="#0a1f04" stroke-width="1"/>
+    
+    <!-- Cork -->
+    <rect x="26" y="4" width="18" height="8" fill="#d4af37" stroke="#a0860a" stroke-width="1" rx="1"/>
+    
+    <!-- Wine inside -->
+    <path d="M 18 60 L 20 90 Q 20 98 28 103 L 32 103 Q 40 98 42 90 L 44 60" fill="#722f37" opacity="0.8"/>
+    
+    <!-- Glass shine -->
+    <ellipse cx="22" cy="40" rx="4" ry="15" fill="white" opacity="0.15"/>
+  </g>
+  
+  <!-- Decorative text -->
+  <text x="200" y="230" font-family="Georgia, serif" font-size="20" fill="#722f37" text-anchor="middle" font-weight="bold">Wine Consultation</text>
+  <text x="200" y="260" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Professional Guidance & Tasting</text>
+</svg>

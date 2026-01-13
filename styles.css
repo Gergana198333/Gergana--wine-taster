@@ -83,12 +83,21 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(114, 47, 55, 0.7), rgba(114, 47, 55, 0.7)), 
-                url('images/wine-hero.jpg') center/cover;
+    background: linear-gradient(rgba(114, 47, 55, 0.3), rgba(114, 47, 55, 0.3));
     color: var(--light-text);
-    padding: 150px 20px;
+    padding: 60px 20px;
     text-align: center;
     margin-bottom: 50px;
+    position: relative;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    margin: 0 auto 40px;
+    display: block;
+    opacity: 0.95;
 }
 
 .hero-content h2 {

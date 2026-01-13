@@ -1,0 +1,56 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c89968;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d2817;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a1810;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="400" fill="#f4e4c1"/>
+  
+  <!-- Hair -->
+  <ellipse cx="150" cy="80" rx="70" ry="75" fill="url(#hairGradient)"/>
+  <path d="M 80 85 Q 70 100 75 140 L 225 140 Q 230 100 220 85" fill="url(#hairGradient)"/>
+  
+  <!-- Face -->
+  <ellipse cx="150" cy="110" rx="65" ry="75" fill="url(#skinGradient)"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="120" cy="100" rx="10" ry="14" fill="#ffffff"/>
+  <circle cx="122" cy="102" r="7" fill="#4a3728"/>
+  <circle cx="123" cy="100" r="3" fill="#000000"/>
+  
+  <ellipse cx="180" cy="100" rx="10" ry="14" fill="#ffffff"/>
+  <circle cx="178" cy="102" r="7" fill="#4a3728"/>
+  <circle cx="177" cy="100" r="3" fill="#000000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 110 80 Q 120 75 130 78" stroke="#3d2817" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 170 78 Q 180 75 190 80" stroke="#3d2817" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 150 105 L 150 135" stroke="#c89968" stroke-width="2" fill="none"/>
+  <ellipse cx="142" cy="137" rx="4" ry="5" fill="#c89968"/>
+  <ellipse cx="158" cy="137" rx="4" ry="5" fill="#c89968"/>
+  
+  <!-- Mouth -->
+  <path d="M 130 160 Q 150 175 170 160" stroke="#8b4d5e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <rect x="125" y="175" width="50" height="30" fill="url(#skinGradient)"/>
+  
+  <!-- Shoulders/Outfit -->
+  <ellipse cx="150" cy="220" rx="90" ry="50" fill="#722f37"/>
+  <path d="M 60 220 L 50 280 L 250 280 L 240 220" fill="#722f37"/>
+  
+  <!-- Neckline detail -->
+  <ellipse cx="150" cy="205" rx="40" ry="15" fill="#d4af37" opacity="0.6"/>
+  
+  <!-- Gold accent (necklace) -->
+  <circle cx="150" cy="230" r="6" fill="#d4af37" stroke="#a0860a" stroke-width="1"/>
+</svg>

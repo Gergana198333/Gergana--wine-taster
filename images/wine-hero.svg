@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1920 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#722f37;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#2a0f14;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="vineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a4d1a;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0d2608;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="1920" height="1000" fill="url(#heroGradient)"/>
+  
+  <!-- Vineyard rows in background -->
+  <g opacity="0.3">
+    <line x1="0" y1="600" x2="1920" y2="800" stroke="#1a4d1a" stroke-width="40"/>
+    <line x1="0" y1="700" x2="1920" y2="850" stroke="#1a4d1a" stroke-width="40"/>
+    <line x1="0" y1="500" x2="1920" y2="700" stroke="#1a4d1a" stroke-width="40"/>
+  </g>
+  
+  <!-- Wine bottles on left -->
+  <g transform="translate(150, 200)">
+    <path d="M 0 80 L -10 200 Q -10 240 10 270 L 50 270 Q 70 240 70 200 L 60 80 Q 60 50 40 50 L 20 50 Q 0 50 0 80" fill="#1a3d0a" stroke="#0a1f04" stroke-width="2" opacity="0.8"/>
+    <rect x="15" y="30" width="30" height="20" fill="#d4af37" stroke="#a0860a" stroke-width="2" rx="3"/>
+    <path d="M 10 180 L 15 240 Q 15 256 25 263 L 45 263 Q 55 256 60 240 L 65 180" fill="#722f37" opacity="0.9"/>
+    <ellipse cx="25" cy="80" rx="8" ry="25" fill="white" opacity="0.1"/>
+  </g>
+  
+  <!-- Wine bottles on right -->
+  <g transform="translate(1650, 250)">
+    <path d="M 0 80 L -10 200 Q -10 240 10 270 L 50 270 Q 70 240 70 200 L 60 80 Q 60 50 40 50 L 20 50 Q 0 50 0 80" fill="#1a3d0a" stroke="#0a1f04" stroke-width="2" opacity="0.8"/>
+    <rect x="15" y="30" width="30" height="20" fill="#d4af37" stroke="#a0860a" stroke-width="2" rx="3"/>
+    <path d="M 10 180 L 15 240 Q 15 256 25 263 L 45 263 Q 55 256 60 240 L 65 180" fill="#8b4d5e" opacity="0.85"/>
+    <ellipse cx="25" cy="80" rx="8" ry="25" fill="white" opacity="0.1"/>
+  </g>
+  
+  <!-- Wine glass on left -->
+  <g transform="translate(300, 400)">
+    <ellipse cx="0" cy="0" rx="40" ry="60" fill="none" stroke="#d4af37" stroke-width="3" opacity="0.7"/>
+    <path d="M -30 60 L 0 100 L 30 60" fill="none" stroke="#d4af37" stroke-width="3" opacity="0.7"/>
+    <ellipse cx="0" cy="100" rx="30" ry="8" fill="#d4af37" opacity="0.5"/>
+    <path d="M -25 40 L 10 70" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+    <path d="M -20 0 L 0 50" fill="#722f37" opacity="0.6"/>
+  </g>
+  
+  <!-- Wine glass on right -->
+  <g transform="translate(1620, 450)">
+    <ellipse cx="0" cy="0" rx="40" ry="60" fill="none" stroke="#d4af37" stroke-width="3" opacity="0.7"/>
+    <path d="M -30 60 L 0 100 L 30 60" fill="none" stroke="#d4af37" stroke-width="3" opacity="0.7"/>
+    <ellipse cx="0" cy="100" rx="30" ry="8" fill="#d4af37" opacity="0.5"/>
+    <path d="M -25 40 L 10 70" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+    <path d="M -15 20 L 5 60" fill="#8b4d5e" opacity="0.6"/>
+  </g>
+  
+  <!-- Grapes decorations -->
+  <g transform="translate(200, 500)" opacity="0.4">
+    <circle cx="0" cy="0" r="8" fill="#722f37"/>
+    <circle cx="12" cy="-5" r="8" fill="#722f37"/>
+    <circle cx="12" cy="8" r="8" fill="#722f37"/>
+    <circle cx="24" cy="0" r="8" fill="#722f37"/>
+    <line x1="12" y1="-15" x2="6" y2="-25" stroke="#1a4d1a" stroke-width="2"/>
+  </g>
+  
+  <!-- Center text area (for overlay text) -->
+  <text x="960" y="450" font-family="Georgia, serif" font-size="72" fill="#d4af37" text-anchor="middle" font-weight="bold" opacity="0" id="heroText">Wine Excellence</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 200 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bottle Body -->
+  <defs>
+    <linearGradient id="bottleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#1a3d0a;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0d2608;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="wineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#722f37;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#5a1f27;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#3d1219;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main bottle body -->
+  <ellipse cx="100" cy="150" rx="45" ry="50" fill="url(#bottleGradient)" stroke="#0a1f04" stroke-width="1"/>
+  <path d="M 55 150 L 50 300 Q 50 350 75 380 L 125 380 Q 150 350 150 300 L 145 150" fill="url(#bottleGradient)" stroke="#0a1f04" stroke-width="1"/>
+  
+  <!-- Bottle shoulders -->
+  <path d="M 55 150 Q 45 130 50 100 L 150 100 Q 155 130 145 150" fill="url(#bottleGradient)" stroke="#0a1f04" stroke-width="1"/>
+  
+  <!-- Bottle neck -->
+  <rect x="80" y="70" width="40" height="35" fill="url(#bottleGradient)" stroke="#0a1f04" stroke-width="1"/>
+  
+  <!-- Bottle top/cork area -->
+  <ellipse cx="100" cy="70" rx="20" ry="8" fill="#d4af37" stroke="#a0860a" stroke-width="1"/>
+  <rect x="85" y="60" width="30" height="12" fill="#c9a230" stroke="#a0860a" stroke-width="1" rx="2"/>
+  <ellipse cx="100" cy="60" rx="20" ry="8" fill="#e6c547" stroke="#a0860a" stroke-width="1"/>
+  
+  <!-- Wine inside bottle -->
+  <path d="M 60 280 L 65 350 Q 65 365 75 375 L 125 375 Q 135 365 135 350 L 140 280" fill="url(#wineGradient)" opacity="0.9"/>
+  
+  <!-- Glass highlight/shine -->
+  <ellipse cx="70" cy="200" rx="8" ry="30" fill="white" opacity="0.2"/>
+  <ellipse cx="130" cy="250" rx="6" ry="20" fill="white" opacity="0.15"/>
+  
+  <!-- Bottom punt (indentation) -->
+  <ellipse cx="100" cy="385" rx="15" ry="5" fill="#0a1f04" opacity="0.3"/>
+</svg>
